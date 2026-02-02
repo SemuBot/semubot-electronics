@@ -60,55 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_issues|104655000|74070000|0048d312-758e-489c-80ec-f5e007903060|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|105900000|111512500|26ea94df-b23f-4012-9141-13f7272eecdf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|136262500|82325000|41f247b8-989e-452c-b1b7-b72f004eb889|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|143350000|72712500|2f295d9c-0d75-4186-91c0-4e4809c45bcc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|153937500|93525000|33db968d-ca4e-4089-b29f-d15dc7e15a22|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|171437500|134125000|fb4c30a6-da8e-47c7-ac4e-c69d50be11eb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|175937500|81425000|8cb3963d-cb48-4aba-9411-645e379365f8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|196250000|116887500|4529a030-6699-4f7f-b870-8ec0aab869a5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|154625000|74575000|897e8bfd-17fe-4ff6-8709-d57819379246|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_edge_clearance|101675000|69600000|7bbcdfb6-7bca-46d3-8c94-347eb5df36b8|4ffbc488-047d-418e-a1fb-7690aeba009f",
           ""
         ],
         [
           "silk_edge_clearance|101675000|78540000|7bbcdfb6-7bca-46d3-8c94-347eb5df36b8|5b34f7b7-532f-4440-84a1-d597d8074250",
-          ""
-        ],
-        [
-          "silk_edge_clearance|122525000|140750000|7bbcdfb6-7bca-46d3-8c94-347eb5df36b8|aa4de791-d3ce-413c-8732-5d49d2d6e8b8",
-          ""
-        ],
-        [
-          "silk_edge_clearance|132425000|140750000|7bbcdfb6-7bca-46d3-8c94-347eb5df36b8|d9e16b78-86b5-411d-a5a4-e50d48b024c9",
           ""
         ],
         [
@@ -154,10 +110,6 @@
         [
           "solder_mask_bridge|107465000|76970000|ca59c50c-fcb9-4e6f-af6a-c6bd566a89f1|d11a349a-439d-44a1-b19f-4adf5b7bc292",
           ""
-        ],
-        [
-          "track_dangling|177452276|72722000|4024180a-6e76-4b73-8cc5-8a588efac345|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -189,8 +141,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
