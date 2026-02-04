@@ -9809,10 +9809,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "25dc3c6c-4e50-4e79-b5ef-2bebad4d5258")
+			(uuid "25dc3c6c-4e50-4e79-b5ef-2bebad4d5259")
 		)
 		(pin "2"
-			(uuid "b62da1b7-528e-432f-8269-b65845f26803")
+			(uuid "b62da1b7-528e-432f-8269-b65845f26804")
 		)
 		(instances
 			(project "Wheelbase"
@@ -11235,10 +11235,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
