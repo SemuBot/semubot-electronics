@@ -1,87 +1,70 @@
 # Wheelbase
 
+## Overview
+
+This project implements a BLDC motor control wheelbase using an STM32 microcontroller, 3-phase gate drivers, and high-precision current sensing.
+
+---
+
 ## Components
 
-### BLDC driver
+### Microcontroller
+* **STM32F303RET6**
 
-https://www.mouser.ee/ProductDetail/Texas-Instruments/DRV8353FSRTAR?qs=hd1VzrDQEGj9xu7LrY%252BpOw%3D%3D
+### BLDC Driver
+* **DRV8353FSRTAR**
+  3-phase gate driver for MOSFET control.
 
-#### Mosfets
+### Current Sensing
+* **ADS131M03IRUKT**
+  3-channel, 24-bit, simultaneous-sampling Delta-Sigma ADC for current measurement.
 
- DI025N06PT-AQ 
- https://www.mouser.ee/ProductDetail/Diotec-Semiconductor/DI025N06PT-AQ?qs=Y0Uzf4wQF3lNF%252Ba3rVyVBQ%3D%3D
+### MOSFETs
+* **AON7262E**
+  N-channel MOSFETs for power stage switching.
 
-#### Oscillator
+### Voltage Regulation
+* **RT9013-33GB**
+  3.3V LDO regulator.
 
-830205889709
-https://www.mouser.ee/ProductDetail/Wurth-Elektronik/830205889709?qs=hWgE7mdIu5QkPZnGbsg1Rg%3D%3D
+### Power Input & Connectors
+* **XT30PW-M**
+  Main DC power input connector.
 
-#### Terminal block connector for 24V from battery
+* **MR30PW-M**
+  Motor phase power connection.
 
- TB003-500-P02BE
+* **10155435-00011LF (Amphenol)**
+  USB Type-C connector.
 
-https://www.mouser.ee/ProductDetail/Same-Sky/TB003-500-P02BE?qs=vLWxofP3U2yAT9CFQJ%2FCaw%3D%3D
+* **B5B-XH-A_LF__SN_ (JST XH)**
+  5-pin connector for peripherals (e.g., Hall/Sensor inputs).
 
-
-
-
-
-### USB C connector
-
-https://www.mouser.ee/ProductDetail/Amphenol-FCI/10155435-00011LF?qs=vHuUswq2%252BswoQuNbiiIX%2FQ%3D%3D
-
-### LDO Voltage Regulator
-https://www.mouser.ee/ProductDetail/onsemi/NCP164CSN330T1G?qs=xZ%2FP%252Ba9zWqbi%2FAyy5UtoRw%3D%3D
-
-### B5B-XH-A(LF)(SN) HALL Sensor connectors
-
-
-https://www.mouser.ee/ProductDetail/JST-Commercial/B5B-XH-ALFSN?qs=cdbOS8ANM9ApoXpxtybURg%3D%3D
+* **DS1013-10SSIB1**
+  General purpose I/O connector.
 
 ### ESD Protection
+* **PRTR5V0U2X**
+  ESD protection for data lines.
 
-PRTR5V0U2X,215
+### Timing & Clock
+* **ECS-2520MVLC-081.92-CN-TR**
+  8.192 MHz Oscillator.
+* **X322516MLB4SI**
+  Secondary oscillator for system timing.
 
-https://www.mouser.ee/ProductDetail/Nexperia/PRTR5V0U2X215?qs=LOCUfHb8d9sDkgY4cRj8Lw%3D%3D
+### User Interface
+* **SWT0211-050010GSA_REVA**
+  Tactile switch for system reset or user input.
 
-### Phase connectors for motors
+---
 
-1984620
+## Technical Summary
 
-https://www.snapeda.com/parts/1984620/Phoenix%20Contact/view-part/?ref=search&t=1984620
-
-
-### Power connector XT30PW-M
-
-https://www.tme.eu/ee/details/xt30pw-m/dc-uhendused/amass/ # 24V
-https://www.tme.eu/ee/details/mr30pw-m/dc-uhendused/amass/ # motor
-
-
-
-## Pins
-
-* SPI pins for data
-* 3x2xGPIO pin for drivers
-* 3xPWM for drivers
-
-Hc = Blue
-HB = White
-Ha = Yellow
-
-Mc = Brown thick
-Mb = Green thick
-Ma = Orange thick
-
-
-TOTAL NEEDED FROM STM32: 9(drivers)+ 3CS + SPI =13
-
-### Encoders
-
-* +5V
-* DATA
-* CLOCK
-* GND
-* CS
+### Power Stage
+* **MOSFETs:** 18x AON7262E
+* **Gate Drivers:** 3x DRV8353FSRTAR
+* **Current Sense Resistors:** 9x 10mΩ (2512 package)
 
 
 
