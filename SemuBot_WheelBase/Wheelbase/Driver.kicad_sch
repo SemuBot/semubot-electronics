@@ -539,8 +539,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at -6.35 -13.97 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -595,15 +595,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -917,8 +908,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at -44.45 -8.89 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -973,15 +964,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -1449,8 +1431,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at -6.35 -13.97 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1505,15 +1487,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -1829,8 +1802,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at -6.35 -13.97 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1885,15 +1858,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -2209,8 +2173,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at -6.35 -13.97 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2265,15 +2229,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)
@@ -2589,8 +2544,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 60 V 21A (Ta), 34A (Tc) 5W (Ta), 43W (Tc) Surface Mount 8-DFN-EP (3x3)"
-				(at -6.35 -13.97 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2645,15 +2600,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 					(hide yes)
 				)
 			)

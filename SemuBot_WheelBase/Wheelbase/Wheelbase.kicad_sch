@@ -4692,15 +4692,6 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "HEIGHT" ""
 				(at 0 0 0)
 				(effects
@@ -6329,7 +6320,7 @@
 	)
 	(text "24V input\n"
 		(exclude_from_sim no)
-		(at 369.316 168.656 0)
+		(at 368.808 167.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6439,7 +6430,7 @@
 	)
 	(text "Voltage regulator\n"
 		(exclude_from_sim no)
-		(at 128.778 246.888 0)
+		(at 128.778 244.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6512,7 +6503,7 @@
 		(uuid "5054baf1-010f-4bf1-814e-fd77dbc68440")
 	)
 	(junction
-		(at 154.94 90.17)
+		(at 157.48 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "537c5cec-e052-4761-9b7b-295ca5f03ed0")
@@ -8077,7 +8068,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 160.02 90.17)
+			(xy 157.48 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8234,16 +8225,6 @@
 			(type default)
 		)
 		(uuid "b16c0688-0936-4123-9603-79832c5ce129")
-	)
-	(wire
-		(pts
-			(xy 135.89 90.17) (xy 154.94 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23a24f7-a497-44b2-af06-85d95d5edc02")
 	)
 	(wire
 		(pts
@@ -8477,7 +8458,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 154.94 90.17)
+			(xy 157.48 88.9) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8774,6 +8755,16 @@
 			(type default)
 		)
 		(uuid "f4afc42f-b1ac-49b3-9f08-1b0463909ee3")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 157.48 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f566d0fa-a8c0-4f21-8050-d0d76dd882ca")
 	)
 	(wire
 		(pts
@@ -9636,7 +9627,7 @@
 		(uuid "9a5c11f9-d797-4678-838f-a3f336288e44")
 	)
 	(label "D+"
-		(at 160.02 90.17 0)
+		(at 162.56 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10077,7 +10068,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 85.09 180)
+		(at 157.48 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10085,7 +10076,7 @@
 		(dnp no)
 		(uuid "000615e4-5c2c-460b-b741-ac59ede4c745")
 		(property "Reference" "R36"
-			(at 151.384 84.836 90)
+			(at 153.924 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +10084,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 152.908 84.328 90)
+			(at 155.448 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10092,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 156.718 85.09 90)
+			(at 159.258 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 85.09 0)
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +10110,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 85.09 0)
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10119,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 154.94 85.09 90)
+			(at 157.48 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +10128,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 154.94 85.09 90)
+			(at 157.48 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10137,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 154.94 85.09 90)
+			(at 157.48 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10146,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 154.94 85.09 90)
+			(at 157.48 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10155,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 154.94 85.09 90)
+			(at 157.48 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10164,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 154.94 85.09 90)
+			(at 157.48 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19943,7 +19934,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 154.94 81.28 0)
+		(at 157.48 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19952,7 +19943,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0cef472-2118-4181-8bcf-83ff7d509f07")
 		(property "Reference" "#PWR092"
-			(at 154.94 85.09 0)
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19961,7 +19952,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 154.94 76.2 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +19960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +19969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19987,7 +19978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 81.28 0)
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
