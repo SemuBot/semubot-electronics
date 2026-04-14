@@ -4465,6 +4465,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "HALL PullUps\n"
+		(exclude_from_sim no)
+		(at 37.084 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a57c4cd4-a4a4-4285-b104-e58abc37acf7")
+	)
+	(text "ADC for current measuring. \nDRV8353 outputs measured voltage from the shunt, between SPX/SNX"
+		(exclude_from_sim no)
+		(at 239.776 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c96c71cb-69f7-4f23-9137-28eab935eac9")
+	)
 	(junction
 		(at 251.46 100.33)
 		(diameter 0)
@@ -4484,7 +4504,7 @@
 		(uuid "12145c45-eb09-47b3-8f54-16ae815e68d5")
 	)
 	(junction
-		(at 34.29 137.16)
+		(at 36.83 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e0a37d3-088d-498a-8f9c-d0c0fbd08400")
@@ -4538,7 +4558,7 @@
 		(uuid "787a34e1-5c7e-43eb-8dbb-06b46d2455c4")
 	)
 	(junction
-		(at 34.29 153.67)
+		(at 36.83 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95ed8f33-6811-47bf-a685-c7228ecf5a8e")
@@ -4598,7 +4618,7 @@
 		(uuid "cc240548-3c5a-4176-94de-a6d2443a695b")
 	)
 	(junction
-		(at 34.29 118.11)
+		(at 36.83 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db6f5f0e-86d2-41c4-8ed8-4a8b8ed78912")
@@ -4697,7 +4717,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 137.16) (xy 34.29 137.16)
+			(xy 30.48 168.91) (xy 36.83 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4747,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 118.11) (xy 34.29 118.11)
+			(xy 30.48 149.86) (xy 36.83 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4797,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 153.67) (xy 34.29 153.67)
+			(xy 29.21 185.42) (xy 36.83 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4967,7 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 137.16) (xy 36.83 137.16)
+			(xy 36.83 168.91) (xy 39.37 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5207,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 153.67) (xy 36.83 153.67)
+			(xy 36.83 185.42) (xy 39.37 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5327,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 118.11) (xy 36.83 118.11)
+			(xy 36.83 149.86) (xy 39.37 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5476,7 +5496,7 @@
 		(uuid "052aa089-7631-4d46-9703-285436492061")
 	)
 	(label "HAL_2"
-		(at 36.83 137.16 0)
+		(at 39.37 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5496,7 +5516,7 @@
 		(uuid "0c3bfbcd-b968-44d2-a729-e05665cb7c48")
 	)
 	(label "HAL_1"
-		(at 36.83 118.11 0)
+		(at 39.37 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,7 +5606,7 @@
 		(uuid "51e95ff7-d29c-42fc-a953-42b597a2dfc7")
 	)
 	(label "HAL_3"
-		(at 36.83 153.67 0)
+		(at 39.37 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6019,7 +6039,7 @@
 	)
 	(hierarchical_label "HAL_2"
 		(shape input)
-		(at 27.94 137.16 180)
+		(at 30.48 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6041,7 +6061,7 @@
 	)
 	(hierarchical_label "HAL_1"
 		(shape input)
-		(at 27.94 118.11 180)
+		(at 30.48 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6052,7 +6072,7 @@
 	)
 	(hierarchical_label "HAL_3"
 		(shape input)
-		(at 26.67 153.67 180)
+		(at 29.21 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9538,7 +9558,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 114.3 180)
+		(at 36.83 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9546,7 +9566,7 @@
 		(dnp no)
 		(uuid "8628774b-5c5e-4e05-89e6-985db7a43887")
 		(property "Reference" "R29"
-			(at 30.734 114.046 90)
+			(at 33.274 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9574,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 32.258 113.538 90)
+			(at 34.798 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9582,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.068 114.3 90)
+			(at 38.608 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 114.3 0)
+			(at 36.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9600,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 114.3 0)
+			(at 36.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9609,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 34.29 114.3 90)
+			(at 36.83 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9618,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 34.29 114.3 90)
+			(at 36.83 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9627,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 34.29 114.3 90)
+			(at 36.83 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9636,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 34.29 114.3 90)
+			(at 36.83 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9645,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 34.29 114.3 90)
+			(at 36.83 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9654,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 34.29 114.3 90)
+			(at 36.83 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10172,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 34.29 129.54 0)
+		(at 36.83 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10161,7 +10181,7 @@
 		(fields_autoplaced yes)
 		(uuid "903dab1b-da7e-41c2-bc05-60ec4fc99147")
 		(property "Reference" "#PWR0109"
-			(at 34.29 133.35 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +10190,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 34.29 124.46 0)
+			(at 36.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 129.54 0)
+			(at 36.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 129.54 0)
+			(at 36.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 129.54 0)
+			(at 36.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +10543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 149.86 180)
+		(at 36.83 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10531,7 +10551,7 @@
 		(dnp no)
 		(uuid "a35ae0bd-814e-4687-a48e-f399e02e69f4")
 		(property "Reference" "R35"
-			(at 30.734 149.606 90)
+			(at 33.274 181.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10559,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 32.258 149.098 90)
+			(at 34.798 180.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10567,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.068 149.86 90)
+			(at 38.608 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 149.86 0)
+			(at 36.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10585,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 149.86 0)
+			(at 36.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10594,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 34.29 149.86 90)
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10603,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 34.29 149.86 90)
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10612,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 34.29 149.86 90)
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10621,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 34.29 149.86 90)
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +10630,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 34.29 149.86 90)
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10639,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 34.29 149.86 90)
+			(at 36.83 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10893,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 133.35 180)
+		(at 36.83 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10881,7 +10901,7 @@
 		(dnp no)
 		(uuid "b7ba22db-bc52-4d19-949d-f6f354c2f7b7")
 		(property "Reference" "R32"
-			(at 30.734 133.096 90)
+			(at 33.274 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10889,7 +10909,7 @@
 			)
 		)
 		(property "Value" "1.5K"
-			(at 32.258 132.588 90)
+			(at 34.798 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10897,7 +10917,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.068 133.35 90)
+			(at 38.608 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,7 +10926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 133.35 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +10935,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 133.35 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +10944,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 34.29 133.35 90)
+			(at 36.83 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10953,7 @@
 			)
 		)
 		(property "HEIGHT" ""
-			(at 34.29 133.35 90)
+			(at 36.83 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +10962,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" ""
-			(at 34.29 133.35 90)
+			(at 36.83 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10971,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 34.29 133.35 90)
+			(at 36.83 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +10980,7 @@
 			)
 		)
 		(property "MOUSER_PART_NUMBER" ""
-			(at 34.29 133.35 90)
+			(at 36.83 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +10989,7 @@
 			)
 		)
 		(property "MOUSER_PRICE-STOCK" ""
-			(at 34.29 133.35 90)
+			(at 36.83 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11108,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 34.29 110.49 0)
+		(at 36.83 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11097,7 +11117,7 @@
 		(fields_autoplaced yes)
 		(uuid "c68384e9-04b5-4ca3-b6c5-87e783b1ac0c")
 		(property "Reference" "#PWR0106"
-			(at 34.29 114.3 0)
+			(at 36.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +11126,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 34.29 105.41 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 110.49 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 110.49 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +11152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 110.49 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12066,7 +12086,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 34.29 146.05 0)
+		(at 36.83 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12075,7 +12095,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef56a688-1eb3-4b72-97e4-d283c38fa741")
 		(property "Reference" "#PWR0112"
-			(at 34.29 149.86 0)
+			(at 36.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12104,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 34.29 140.97 0)
+			(at 36.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,7 +12112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 146.05 0)
+			(at 36.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,7 +12121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 146.05 0)
+			(at 36.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +12130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 34.29 146.05 0)
+			(at 36.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
