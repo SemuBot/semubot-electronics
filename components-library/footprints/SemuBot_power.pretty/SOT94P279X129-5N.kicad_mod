@@ -1,0 +1,226 @@
+(footprint "SOT94P279X129-5N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.175 -2.635 0)
+		(layer "F.SilkS")
+		(uuid "5c8e287d-a146-4eae-964d-8126ea5771ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT94P279X129-5N"
+		(at 8.16 2.635 0)
+		(layer "F.Fab")
+		(uuid "6f857ae5-ccc2-473e-91fb-7b87a27b28bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7111158e-2282-48c0-83e7-0c83daeb10c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ff181fd-b085-4eb8-bda5-feba6e0e8402")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.9 -1.579)
+		(end 0.9 -1.579)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4abd042e-194e-4725-8970-1d4128af00e7")
+	)
+	(fp_line
+		(start -0.9 1.579)
+		(end 0.9 1.579)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aecc2d69-2ced-4d68-8a1e-788884924d38")
+	)
+	(fp_circle
+		(center -2.4 -1)
+		(end -2.3 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cc76d1f0-3c42-4c3e-9083-3e04f8d212de")
+	)
+	(fp_line
+		(start -2.11 -1.8)
+		(end 2.11 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50e2c6be-d00a-4678-b324-003534348167")
+	)
+	(fp_line
+		(start -2.11 1.8)
+		(end -2.11 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a88de8c1-c63a-4153-af34-5758fc9c6f6b")
+	)
+	(fp_line
+		(start 2.11 -1.8)
+		(end 2.11 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "218333a3-2f49-4c83-9fb4-fdb4d661e397")
+	)
+	(fp_line
+		(start 2.11 1.8)
+		(end -2.11 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9eaab2f1-5ea0-4164-9a31-b217be9c9f50")
+	)
+	(fp_line
+		(start -0.9 -1.55)
+		(end 0.9 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e428448-c559-445c-90d7-5950afea4569")
+	)
+	(fp_line
+		(start -0.9 1.55)
+		(end -0.9 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e0b3cca-b6f8-4f7c-ba76-b6457b117765")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b542ca51-08e3-4438-ba1c-a93c793ba95c")
+	)
+	(fp_line
+		(start 0.9 1.55)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1d26b75-a38d-4bbc-867e-bd9b5e3699f2")
+	)
+	(fp_circle
+		(center -2.4 -1)
+		(end -2.3 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "363ae9b1-067e-452c-b0e1-eadd8512cafe")
+	)
+	(pad "1" smd roundrect
+		(at -1.245 -0.94)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "d7605fbf-e2f7-47a7-8cf6-d19fc4f4aff5")
+	)
+	(pad "2" smd roundrect
+		(at -1.245 0)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "c680edba-d228-42e4-be4b-11830f75eceb")
+	)
+	(pad "3" smd roundrect
+		(at -1.245 0.94)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "c08bb4ad-877e-4085-a7b6-2c7ac96cd498")
+	)
+	(pad "4" smd roundrect
+		(at 1.245 0.94)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "8b097e89-096f-46b1-8314-f5af823de474")
+	)
+	(pad "5" smd roundrect
+		(at 1.245 -0.94)
+		(size 1.22 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "627cdf87-3d60-4638-847d-c3a76c87b3a7")
+	)
+	(embedded_fonts no)
+	(model "${SEMUBOT_LIB}/models/SemuBot_power/RT9013-33GB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
