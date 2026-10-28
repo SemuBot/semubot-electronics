@@ -1,7 +1,1 @@
-*_autosave*.kicad_sch
-*.bak
-Wheelbase-backups/
-
-*.dsn
-*.cache
-*.fp-info-cache
+archive/

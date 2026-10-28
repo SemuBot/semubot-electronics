@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SemuBot_connector") (type "KiCad") (uri "../components-library/footprints/SemuBot_connector.pretty") (options "") (descr ""))
+)
