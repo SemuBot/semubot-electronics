@@ -1,0 +1,12 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SemuBot_connector") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_connector.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_crystal") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_crystal.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_diode") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_diode.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_driver") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_driver.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_mcu") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_mcu.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_power") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_power.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_sensor") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_sensor.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_signal") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_signal.kicad_sym") (options "") (descr ""))
+	(lib (name "SemuBot_transistor") (type "KiCad") (uri "${KIPRJMOD}/../components-library/symbols/SemuBot_transistor.kicad_sym") (options "") (descr ""))
+)

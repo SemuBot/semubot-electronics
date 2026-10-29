@@ -1,0 +1,230 @@
+(footprint "SOT95P240X115-3N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.265 -3.335 0)
+		(layer "F.SilkS")
+		(uuid "0a0e79dc-6cc7-4f9f-9b34-094d0d44c396")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT95P240X115-3N"
+		(at 8.25 3.335 0)
+		(layer "F.Fab")
+		(uuid "f8d69cd8-21c6-42d3-9bd9-65296388bba5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e7825a4-f3eb-433f-b8f8-8d2238c3f012")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bd20bd9-f075-4307-bc2f-7673ef04ab40")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.06 1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9271fcd6-ddc3-45c4-9093-7e9a1da9f386")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end -0.06 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43c04175-7c0b-435e-b874-e72d87a0dd9f")
+	)
+	(fp_line
+		(start 0.65 -0.615)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "349f46e5-5c99-47ae-b2f6-e89a87d90a53")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end 0.65 0.615)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0769ef46-06b1-4f1c-b2b6-e1f6acb31e9c")
+	)
+	(fp_circle
+		(center -2.35 -0.95)
+		(end -2.25 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "62a29328-6636-4d30-8f8f-b1804ea2dcb3")
+	)
+	(fp_line
+		(start -1.91 -1.7)
+		(end -1.91 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c62df204-8d27-4030-a262-c18d5950457b")
+	)
+	(fp_line
+		(start -1.91 1.7)
+		(end 1.91 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e4f0bb5-2f7c-4aaf-8036-285b38cba472")
+	)
+	(fp_line
+		(start 1.91 -1.7)
+		(end -1.91 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e86517b-300f-41cf-9bea-933032aefaa5")
+	)
+	(fp_line
+		(start 1.91 1.7)
+		(end 1.91 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18ecc2fa-6515-430f-a30c-a3d1f4da36d8")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c85358c-90fc-4a6b-8fad-fdc4ce4ab3fb")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da4cf2f8-7870-4b66-af3f-bed208cbb26e")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31670178-03da-4c03-8683-f9bdd8328631")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54ab0ee7-8549-40ad-927e-2dce7074bd1a")
+	)
+	(fp_circle
+		(center -2.35 -0.95)
+		(end -2.25 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bb814b65-bd9c-42ec-9437-406a38f52d70")
+	)
+	(pad "1" smd roundrect
+		(at -1.02 -0.95)
+		(size 1.28 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "e2c06c64-e2e6-4614-bdf7-989a1fa40bb2")
+	)
+	(pad "2" smd roundrect
+		(at -1.02 0.95)
+		(size 1.28 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "5f07cc3f-7fd2-45e9-aa15-3514fbbbefe6")
+	)
+	(pad "3" smd roundrect
+		(at 1.02 0)
+		(size 1.28 0.59)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "9af4bbe0-7d4f-4e8f-a46d-c259a4282ad7")
+	)
+	(embedded_fonts no)
+	(model "${SEMUBOT_LIB}/models/SemuBot_diode/BZX84C3V3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

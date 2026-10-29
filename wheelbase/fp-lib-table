@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SemuBot_connector") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_connector.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_crystal") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_crystal.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_diode") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_diode.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_driver") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_driver.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_mcu") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_mcu.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_power") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_power.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_sensor") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_sensor.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_signal") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_signal.pretty") (options "") (descr ""))
+	(lib (name "SemuBot_transistor") (type "KiCad") (uri "${KIPRJMOD}/../components-library/footprints/SemuBot_transistor.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,20 @@
+# documentation (little mention of temporary files): https://docs.kicad.org/10.0/en/kicad/kicad.html#kicad_files_and_folders
+# good reference: https://github.com/github/gitignore/blob/main/KiCad.gitignore
+
+# Backup files
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Temporary/cache files
+*~
+~*
+*.kicad_sch.lck
+*.kicad_pcb.lck
+*.tmp
+fp-info-cache
+
+# Project-local settings file 
+*.kicad_prl
